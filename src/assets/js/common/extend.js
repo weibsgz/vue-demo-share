@@ -1,4 +1,4 @@
-/* eslint-disable */
+/* jquery extend 方法剥离 */
 export const $ = function() {
   var copyIsArray,
     toString = Object.prototype.toString,

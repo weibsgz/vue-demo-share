@@ -1,13 +1,6 @@
-# vue pc 模板
 
-## 1月23日更新版本 vue=>2.5.2 / element-ui=>2.0.11 / echarts => 4.0.0
 
-### 1.配置项
-    > 修改端口：                   `config/index.js` --port
-    > 是否开启elslint              `config/index.js` --useEslint
-    > build之后修改路径 :          `config/index.js` --assetsPublicPath: './'
-
-### 2.脚手架SRC目录搭建结构
+### 脚手架SRC目录搭建结构
     ```
     |-- src                              // 源码目录
     |   |-- api                          // 获取数据接口API相关文件
@@ -29,7 +22,6 @@
     |   |-- pages                        // 所有页面
     |   |-- router                       // 路由配置文件
     |   |-- store                        // vuex相关文件
-    |   |-- visus                        // 图表相关类
     |   |-- App.vue                      // 页面入口文件
     |   |-- main.js                      // 程序入口文件，加载各种公共组件
 ```
